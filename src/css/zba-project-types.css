@@ -1,0 +1,48 @@
+.project-categories-wrapper {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1rem;
+}
+
+.single-type-wrapper {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.single-type-wrapper span {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.single-type-wrapper a {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.1;
+  padding: 1rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+.single-type-wrapper:before {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--colorA);
+  opacity: 0.85;
+}

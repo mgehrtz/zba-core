@@ -1,0 +1,1 @@
+<button class="carousel-nav-button <?= $direction ?>-chevron" role="button" aria-label="<?= $label ?>" style="border: none; background: transparent; cursor: pointer;"><?= file_get_contents( ZBA_PLUGIN_ROOT . 'assets/icons/chevron-' . $direction . '.svg' ) ?></button>

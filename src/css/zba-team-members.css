@@ -1,0 +1,51 @@
+.staff-seperating-title {
+  text-align: center;
+  margin: 2rem 0 !important;
+}
+
+.team-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  display: flex;
+  flex-direction: column;
+  width: calc(25% - 2rem);
+  margin: 1rem 1rem 2rem;
+}
+
+.team-member .headshot {
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-bottom: 1.25rem;
+}
+
+.team-member .name {
+  color: var(--colorC);
+  font-size: 2.5rem;
+  font-weight: 500;
+  font-family: var(--fontA);
+  letter-spacing: -1px;
+  margin-bottom: 0.75rem !important;
+}
+
+.team-member .title {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  line-height: 1;
+  font-weight: 500;
+  padding-left: 1px;
+  letter-spacing: 0.5px;
+  color: grey;
+}
+
+@media screen and (max-width: 768px){
+  .team-member {
+    width: 100%;
+  }
+}

@@ -1,0 +1,30 @@
+.zba-home-images-settings > th {
+  display: none;
+}
+
+.zba-home-images-settings > td {
+  padding-left: 0;
+  padding-right: 1rem;
+}
+
+.gallery-wrap {
+  display: flex;
+  column-gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+  padding-right: 2rem;
+}
+
+.gallery-wrap .image-wrap {
+  text-align: center;
+}
+
+.gallery-wrap .image-wrap .zba-image {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 0.5rem;
+}
+
+.gallery-wrap .image-wrap .zba-remove {
+  color: #aa3844;
+}

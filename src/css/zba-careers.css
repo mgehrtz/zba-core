@@ -1,0 +1,68 @@
+.job-listing {
+  background: #ffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.job-listing .job-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+  color: var(--colorA);
+  margin-bottom: 0 !important;
+  letter-spacing: 1px;
+}
+
+.job-listing .button {
+  color: #fff;
+  background: var(--colorA);
+  border: 2px solid var(--colorA);
+  display: inline-block;
+  width: 124px;
+  text-align: center;
+  line-height: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 600;
+  border-radius: 100px;
+  margin-left: 0.75rem;
+  transition: all 150ms ease;
+  opacity: 1;
+}
+
+.job-listing .button:hover {
+  opacity: 0.8;
+}
+
+.job-listing .button.btn-alt {
+  color: var(--colorA) !important;
+  background: #fff;
+}
+
+.job-listing .button.btn-alt:hover {
+  opacity: 1;
+  background: #eeeeee;
+}
+
+.job-listing h6 span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--colorB);
+  margin-bottom: 5px;
+  color: #676767;
+  font-weight: 500;
+}
+
+.job-listing h6 {
+  text-align: center;
+  margin-bottom: 0 !important;
+  font-weight: 700;
+  color: var(--colorA);
+}
