@@ -36,7 +36,7 @@ function register_project_grid_assets(){
     'zba_project_grid_js',
     ZBA_PLUGIN_ROOT . 'src/js/zba-project-grid.js',
     ['jquery'],
-    '1.0',
+    '1.1',
     true
   );
 }

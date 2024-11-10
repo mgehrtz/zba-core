@@ -16,7 +16,7 @@
 
 async function getProjects(projectTypeId=''){
   const baseUrl = location.origin + `/wp-json/wp/v2/project`;
-  const query = (projectTypeId != "-1") ? `?_embed&project_type=${projectTypeId}` : "?_embed";
+  const query = (projectTypeId != "-1") ? `?_embed&project_type=${projectTypeId}&per_page=100` : "?_embed&per_page=100";
   const options = {
     headers: {
       "Content-Type": 'application/json'
