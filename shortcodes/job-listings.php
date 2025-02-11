@@ -37,7 +37,7 @@
 
   // No Jobs
   } else {
-    $html .= '<p style="text-align: center; max-width: 1000px; padding: 1rem; margin: 0 auto;">We are not actively hiring at the moment, but we are always interested in connecting with talented individuals who are passionate about architecture and design. If you would like to submit a general application, please send your resume and cover letter to <a href="mailto:careers@zbaarch.com">careers@zbaarch.com</a>. We will keep your information on file and reach out if a suitable opportunity arises.</p>';
+    $html .= '<p style="text-align: center; max-width: 1000px; padding: 1rem; margin: 0 auto;">We are not actively hiring at the moment, but we are always interested in connecting with talented individuals who are passionate about architecture and design. If you would like to submit a general application, please send your resume and cover letter to <a href="mailto:careers@zbarch.com">careers@zbarch.com</a>. We will keep your information on file and reach out if a suitable opportunity arises.</p>';
   }
 
   $html .= '</div>';
