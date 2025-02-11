@@ -1,5 +1,9 @@
 # ZBA Core Change Log
 
+## Version 1.3.0 - February 10, 2025
+
+- Update text when no active job listings are available.
+
 ## Version 1.2.0 - November 9, 2024
 
 - Return more than 10 results to the project types.

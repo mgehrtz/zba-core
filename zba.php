@@ -3,7 +3,7 @@
  * 
  * Plugin Name: Zerr Berg Architects - Core
  * Description: A plugin that powers custom functionality to the Zerr Berg Architects website.
- * Version: 1.2.0
+ * Version: 1.3.0
  *
  */
 
